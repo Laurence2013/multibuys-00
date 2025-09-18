@@ -1,0 +1,182 @@
+[debug] [2025-09-18T20:26:25.394Z] ----------------------------------------------------------------------
+[debug] [2025-09-18T20:26:25.396Z] Command:       /home/lozza187/.nvm/versions/node/v22.13.1/bin/node /home/lozza187/.nvm/versions/node/v22.13.1/bin/firebase emulators:start
+[debug] [2025-09-18T20:26:25.396Z] CLI Version:   14.17.0
+[debug] [2025-09-18T20:26:25.397Z] Platform:      linux
+[debug] [2025-09-18T20:26:25.397Z] Node Version:  v22.13.1
+[debug] [2025-09-18T20:26:25.397Z] Time:          Thu Sep 18 2025 21:26:25 GMT+0100 (British Summer Time)
+[debug] [2025-09-18T20:26:25.397Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-09-18T20:26:25.654Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-09-18T20:26:25.654Z] > authorizing via signed-in user (djroa1985@gmail.com)
+[debug] [2025-09-18T20:26:25.767Z] openjdk version "11.0.27" 2025-04-15
+
+[debug] [2025-09-18T20:26:25.767Z] OpenJDK Runtime Environment (build 11.0.27+6-post-Ubuntu-0ubuntu120.04)
+OpenJDK 64-Bit Server VM (build 11.0.27+6-post-Ubuntu-0ubuntu120.04, mixed mode, sharing)
+
+[debug] [2025-09-18T20:26:25.771Z] Parsed Java major version: 11
+[info] i  emulators: Starting emulators: functions, firestore, extensions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, firestore, extensions"}}
+[debug] [2025-09-18T20:26:25.772Z] Checked if tokens are valid: false, expires at: 1758227940084
+[debug] [2025-09-18T20:26:25.772Z] Checked if tokens are valid: false, expires at: 1758227940084
+[debug] [2025-09-18T20:26:25.773Z] > refreshing access token with scopes: []
+[debug] [2025-09-18T20:26:25.774Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-09-18T20:26:25.774Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-09-18T20:26:25.942Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-09-18T20:26:25.942Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-09-18T20:26:26.010Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/multibuys-00/services/cloudresourcemanager.googleapis.com [none]
+[debug] [2025-09-18T20:26:26.011Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/multibuys-00/services/cloudresourcemanager.googleapis.com x-goog-quota-user=projects/multibuys-00
+[debug] [2025-09-18T20:26:26.770Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/multibuys-00/services/cloudresourcemanager.googleapis.com 403
+[debug] [2025-09-18T20:26:26.770Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/multibuys-00/services/cloudresourcemanager.googleapis.com [omitted]
+[debug] [2025-09-18T20:26:26.771Z] Unable to check that https://cloudresourcemanager.googleapis.com is enabled on multibuys-00. Calls to it will fail if it is not enabled
+[debug] [2025-09-18T20:26:26.771Z] Checked if tokens are valid: true, expires at: 1758230784942
+[debug] [2025-09-18T20:26:26.771Z] Checked if tokens are valid: true, expires at: 1758230784942
+[debug] [2025-09-18T20:26:26.771Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/multibuys-00 [none]
+[debug] [2025-09-18T20:26:27.875Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/multibuys-00 403
+[debug] [2025-09-18T20:26:27.875Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/multibuys-00 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[error] ⬢  extensions: Unable to look up project number for multibuys-00.
+ If this is a real project, ensure that you are logged in and have access to it.
+ If this is a fake project, please use a project ID starting with 'demo-' to skip production calls.
+ Continuing with a fake project number - secrets and other features that require production access may behave unexpectedly. {"metadata":{"emulator":{"name":"extensions"},"message":"Unable to look up project number for multibuys-00.\n If this is a real project, ensure that you are logged in and have access to it.\n If this is a fake project, please use a project ID starting with 'demo-' to skip production calls.\n Continuing with a fake project number - secrets and other features that require production access may behave unexpectedly."}}
+[debug] [2025-09-18T20:26:27.884Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-09-18T20:26:27.884Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-09-18T20:26:27.884Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-09-18T20:26:27.885Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-09-18T20:26:27.890Z] Emulator locator file path: /tmp/hub-multibuys-00.json
+[debug] [2025-09-18T20:26:27.890Z] [hub] writing locator at /tmp/hub-multibuys-00.json
+[debug] [2025-09-18T20:26:27.894Z] [Extensions] Started Extensions emulator, this is a noop.
+[debug] [2025-09-18T20:26:27.895Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-09-18T20:26:27.895Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-09-18T20:26:27.895Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-09-18T20:26:27.896Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: apphosting, auth, database, hosting, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mapphosting, auth, database, hosting, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2025-09-18T20:26:27.947Z] defaultcredentials: writing to file /home/lozza187/.config/firebase/djroa1985_gmail_com_application_default_credentials.json
+[debug] [2025-09-18T20:26:27.948Z] Setting GAC to /home/lozza187/.config/firebase/djroa1985_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /home/lozza187/.config/firebase/djroa1985_gmail_com_application_default_credentials.json"}}
+[debug] [2025-09-18T20:26:27.948Z] Checked if tokens are valid: true, expires at: 1758230784942
+[debug] [2025-09-18T20:26:27.948Z] Checked if tokens are valid: true, expires at: 1758230784942
+[debug] [2025-09-18T20:26:27.948Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/multibuys-00/adminSdkConfig [none]
+[debug] [2025-09-18T20:26:28.487Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/multibuys-00/adminSdkConfig 403
+[debug] [2025-09-18T20:26:28.488Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/multibuys-00/adminSdkConfig {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-09-18T20:26:28.488Z] Failed to get Admin SDK config for multibuys-00, falling back to cache Failed to get Admin SDK for Firebase project multibuys-00. Please make sure the project exists and your account has permission to access it. {"name":"FirebaseError","children":[],"exit":2,"message":"Failed to get Admin SDK for Firebase project multibuys-00. Please make sure the project exists and your account has permission to access it.","original":{"name":"FirebaseError","children":[],"context":{"body":{"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}},"response":{"statusCode":403}},"exit":1,"message":"Request to https://firebase.googleapis.com/v1beta1/projects/multibuys-00/adminSdkConfig had HTTP Error: 403, The caller does not have permission","status":403},"status":500}
+[warn] ⚠  functions: Unable to fetch project Admin SDK configuration, Admin SDK behavior in Cloud Functions emulator may be incorrect. {"metadata":{"emulator":{"name":"functions"},"message":"Unable to fetch project Admin SDK configuration, Admin SDK behavior in Cloud Functions emulator may be incorrect."}}
+[debug] [2025-09-18T20:26:28.498Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2025-09-18T20:26:28.498Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2025-09-18T20:26:28.498Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","/home/lozza187/.cache/firebase/emulators/cloud-firestore-emulator-v1.19.8.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","multibuys-00","--rules","/home/lozza187/projects-00/multibuys-00/multibuys-00/firestore.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false,"shell":false,"port":8080} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"/home/lozza187/.cache/firebase/emulators/cloud-firestore-emulator-v1.19.8.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"multibuys-00\",\"--rules\",\"/home/lozza187/projects-00/multibuys-00/multibuys-00/firestore.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false,\"shell\":false,\"port\":8080}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[debug] [2025-09-18T20:26:30.160Z] Sep 18, 2025 9:26:30 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start
+INFO: Started WebSocket server on ws://127.0.0.1:9150
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 18, 2025 9:26:30 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start\nINFO: Started WebSocket server on ws://127.0.0.1:9150\n"}}
+[debug] [2025-09-18T20:26:30.215Z] API endpoint: http:// {"metadata":{"emulator":{"name":"firestore"},"message":"API endpoint: http://"}}
+[debug] [2025-09-18T20:26:30.215Z] 127.0.0.1:8080
+If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=127.0.0.1:8080
+
+If you are running a Firestore in Datastore Mode project, run:
+
+   export DATASTORE_EMULATOR_HOST=127.0.0.1:8080
+
+Note: Support for Datastore Mode is in preview. If you encounter any bugs please file at https://github.com/firebase/firebase-tools/issues.
+Dev App Server is now running.
+
+ {"metadata":{"emulator":{"name":"firestore"},"message":"127.0.0.1:8080\nIf you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:\n\n   export FIRESTORE_EMULATOR_HOST=127.0.0.1:8080\n\nIf you are running a Firestore in Datastore Mode project, run:\n\n   export DATASTORE_EMULATOR_HOST=127.0.0.1:8080\n\nNote: Support for Datastore Mode is in preview. If you encounter any bugs please file at https://github.com/firebase/firebase-tools/issues.\nDev App Server is now running.\n\n"}}
+[info] ✔  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[debug] [2025-09-18T20:26:30.314Z] [Extensions] Connecting Extensions emulator, this is a noop.
+[info] i  functions: Watching "/home/lozza187/projects-00/multibuys-00/multibuys-00/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/home/lozza187/projects-00/multibuys-00/multibuys-00/functions\" for Cloud Functions..."}}
+[debug] [2025-09-18T20:26:30.322Z] Validating nodejs source
+[debug] [2025-09-18T20:26:31.038Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts .",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.25.4",
+    "firebase-functions-test": "^3.1.0",
+    "typescript": "^5.7.3"
+  },
+  "private": true
+}
+[debug] [2025-09-18T20:26:31.038Z] Building nodejs source
+[debug] [2025-09-18T20:26:31.039Z] Failed to find version of module node: reached end of search path /home/lozza187/projects-00/multibuys-00/multibuys-00/functions/node_modules
+[info] ✔  functions: Using node@22 from host. 
+[debug] [2025-09-18T20:26:31.042Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-09-18T20:26:31.046Z] Found firebase-functions binary at '/home/lozza187/projects-00/multibuys-00/multibuys-00/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8046
+
+[debug] [2025-09-18T20:26:31.336Z] Got response from /__/functions.yaml {"endpoints":{"helloWorld99":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":10,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"helloWorld99"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[debug] [2025-09-18T20:26:35.362Z] defaultcredentials: writing to file /home/lozza187/.config/firebase/djroa1985_gmail_com_application_default_credentials.json
+[debug] [2025-09-18T20:26:35.363Z] Setting GAC to /home/lozza187/.config/firebase/djroa1985_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /home/lozza187/.config/firebase/djroa1985_gmail_com_application_default_credentials.json"}}
+[info] ✔  functions: Loaded functions definitions from source: helloWorld99. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: helloWorld99."}}
+[info] ✔  functions[us-central1-helloWorld99]: http function initialized (http://127.0.0.1:5001/multibuys-00/us-central1/helloWorld99). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/multibuys-00/us-central1/helloWorld99)."}}
+[debug] [2025-09-18T20:26:35.368Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: connect ECONNREFUSED 127.0.0.1:40001. If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────┬────────────────┬──────────────────────────────────┐
+│ Emulator   │ Host:Port      │ View in Emulator UI              │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Functions  │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions  │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Firestore  │ 127.0.0.1:8080 │ http://127.0.0.1:4000/firestore  │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Extensions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/extensions │
+└────────────┴────────────────┴──────────────────────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500, 9150
+┌─────────────────────────┬───────────────┬─────────────────────┐
+│ Extension Instance Name │ Extension Ref │ View in Emulator UI │
+└─────────────────────────┴───────────────┴─────────────────────┘
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2025-09-18T20:26:42.813Z] [work-queue] {"queuedWork":["/multibuys-00/us-central1/helloWorld99-2025-09-18T20:26:42.813Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-18T20:26:42.813Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/multibuys-00/us-central1/helloWorld99-2025-09-18T20:26:42.813Z"],"workRunningCount":1}
+[debug] [2025-09-18T20:26:42.814Z] Accepted request GET /multibuys-00/us-central1/helloWorld99 --> us-central1-helloWorld99
+[debug] [2025-09-18T20:26:42.816Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-09-18T20:26:42.816Z] [functions] Got req.url=/multibuys-00/us-central1/helloWorld99, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/multibuys-00/us-central1/helloWorld99, mapping to path=/"}}
+[debug] [2025-09-18T20:26:42.822Z] [worker-pool] addWorker(us-central1-helloWorld99) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-helloWorld99)"}}
+[debug] [2025-09-18T20:26:42.823Z] [worker-pool] Adding worker with key us-central1-helloWorld99, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-helloWorld99, total=1"}}
+[info] >  (node:21116) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead. {"user":"(node:21116) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld99"},"extension":{},"message":"\u001b[90m> \u001b[39m (node:21116) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead."}}
+[info] >  (Use `node --trace-deprecation ...` to show where the warning was created) {"user":"(Use `node --trace-deprecation ...` to show where the warning was created)","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld99"},"extension":{},"message":"\u001b[90m> \u001b[39m (Use `node --trace-deprecation ...` to show where the warning was created)"}}
+[debug] [2025-09-18T20:26:43.432Z] [runtime-status] [21116] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"/home/lozza187/projects-00/multibuys-00/multibuys-00/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld99"},"extension":{},"message":"[runtime-status] [21116] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"/home/lozza187/projects-00/multibuys-00/multibuys-00/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2025-09-18T20:26:43.433Z] [runtime-status] [21116] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.4.0","resolution":"/home/lozza187/projects-00/multibuys-00/multibuys-00/functions/node_modules/firebase-functions/lib/v2/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld99"},"extension":{},"message":"[runtime-status] [21116] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.4.0\",\"resolution\":\"/home/lozza187/projects-00/multibuys-00/multibuys-00/functions/node_modules/firebase-functions/lib/v2/index.js\"}"}}
+[debug] [2025-09-18T20:26:43.434Z] [runtime-status] [21116] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld99"},"extension":{},"message":"[runtime-status] [21116] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2025-09-18T20:26:43.434Z] [runtime-status] [21116] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.4.0","resolution":"/home/lozza187/projects-00/multibuys-00/multibuys-00/functions/node_modules/firebase-functions/lib/v2/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld99"},"extension":{},"message":"[runtime-status] [21116] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.4.0\",\"resolution\":\"/home/lozza187/projects-00/multibuys-00/multibuys-00/functions/node_modules/firebase-functions/lib/v2/index.js\"}"}}
+[debug] [2025-09-18T20:26:43.607Z] [runtime-status] [21116] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld99"},"extension":{},"message":"[runtime-status] [21116] Checked functions.config() {\"config\":{}}"}}
+[debug] [2025-09-18T20:26:43.607Z] [runtime-status] [21116] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"6.4.0","resolution":"/home/lozza187/projects-00/multibuys-00/multibuys-00/functions/node_modules/firebase-functions/lib/v2/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld99"},"extension":{},"message":"[runtime-status] [21116] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"6.4.0\",\"resolution\":\"/home/lozza187/projects-00/multibuys-00/multibuys-00/functions/node_modules/firebase-functions/lib/v2/index.js\"}}"}}
+[debug] [2025-09-18T20:26:43.607Z] [runtime-status] [21116] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.4.0","resolution":"/home/lozza187/projects-00/multibuys-00/multibuys-00/functions/node_modules/firebase-functions/lib/v2/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld99"},"extension":{},"message":"[runtime-status] [21116] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.4.0\",\"resolution\":\"/home/lozza187/projects-00/multibuys-00/multibuys-00/functions/node_modules/firebase-functions/lib/v2/index.js\"}"}}
+[debug] [2025-09-18T20:26:43.610Z] [runtime-status] [21116] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"/home/lozza187/projects-00/multibuys-00/multibuys-00/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld99"},"extension":{},"message":"[runtime-status] [21116] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"/home/lozza187/projects-00/multibuys-00/multibuys-00/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2025-09-18T20:26:43.611Z] [runtime-status] [21116] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.4.0","resolution":"/home/lozza187/projects-00/multibuys-00/multibuys-00/functions/node_modules/firebase-functions/lib/v2/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld99"},"extension":{},"message":"[runtime-status] [21116] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.4.0\",\"resolution\":\"/home/lozza187/projects-00/multibuys-00/multibuys-00/functions/node_modules/firebase-functions/lib/v2/index.js\"}"}}
+[debug] [2025-09-18T20:26:43.611Z] [runtime-status] [21116] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"12.7.0","resolution":"/home/lozza187/projects-00/multibuys-00/multibuys-00/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld99"},"extension":{},"message":"[runtime-status] [21116] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"/home/lozza187/projects-00/multibuys-00/multibuys-00/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2025-09-18T20:26:43.618Z] [runtime-status] [21116] Functions runtime initialized. {"cwd":"/home/lozza187/projects-00/multibuys-00/multibuys-00/functions","node_version":"22.13.1"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld99"},"extension":{},"message":"[runtime-status] [21116] Functions runtime initialized. {\"cwd\":\"/home/lozza187/projects-00/multibuys-00/multibuys-00/functions\",\"node_version\":\"22.13.1\"}"}}
+[debug] [2025-09-18T20:26:43.618Z] [runtime-status] [21116] Listening to port: /tmp/fire_emu_d4f9e3f220e4ce53.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld99"},"extension":{},"message":"[runtime-status] [21116] Listening to port: /tmp/fire_emu_d4f9e3f220e4ce53.sock"}}
+[debug] [2025-09-18T20:26:43.634Z] [worker-us-central1-helloWorld99-956e5f21-d557-4db8-b2f7-e0da95dad59a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld99"},"extension":{},"message":"[worker-us-central1-helloWorld99-956e5f21-d557-4db8-b2f7-e0da95dad59a]: IDLE"}}
+[debug] [2025-09-18T20:26:43.634Z] [worker-pool] submitRequest(triggerId=us-central1-helloWorld99) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-helloWorld99)"}}
+[info] i  functions: Beginning execution of "us-central1-helloWorld99" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld99"},"extension":{},"message":"Beginning execution of \"us-central1-helloWorld99\""}}
+[debug] [2025-09-18T20:26:43.635Z] [worker-us-central1-helloWorld99-956e5f21-d557-4db8-b2f7-e0da95dad59a]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld99"},"extension":{},"message":"[worker-us-central1-helloWorld99-956e5f21-d557-4db8-b2f7-e0da95dad59a]: BUSY"}}
+[info] >  {"structuredData":true,"severity":"INFO","message":"Hello logs!"} {"user":{"structuredData":true,"severity":"INFO","message":"Hello logs!"},"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld99"},"extension":{},"message":"\u001b[90m> \u001b[39m {\"structuredData\":true,\"severity\":\"INFO\",\"message\":\"Hello logs!\"}"}}
+[debug] [2025-09-18T20:26:43.640Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld99"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-helloWorld99" in 5.865785ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld99"},"extension":{},"message":"Finished \"us-central1-helloWorld99\" in 5.865785ms"}}
+[debug] [2025-09-18T20:26:43.641Z] [worker-us-central1-helloWorld99-956e5f21-d557-4db8-b2f7-e0da95dad59a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld99"},"extension":{},"message":"[worker-us-central1-helloWorld99-956e5f21-d557-4db8-b2f7-e0da95dad59a]: IDLE"}}
+[debug] [2025-09-18T20:26:43.641Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld99"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-09-18T20:26:43.641Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld99"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-09-18T20:26:43.641Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}

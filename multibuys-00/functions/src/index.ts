@@ -28,5 +28,5 @@ setGlobalOptions({maxInstances: 10});
 
 export const helloWorld99 = onRequest((request, response) => {
   logger.info("Hello logs!", {structuredData: true});
-  response.send("Hello from Firebase at multibuys-00!");
+  response.send("Hello from Firebase at multibuys-00! -- from helloWorld99");
 });
