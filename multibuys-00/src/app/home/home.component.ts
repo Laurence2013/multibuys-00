@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-	public title_00 = 'This is the multibuys store';
+	public title_00 = 'multibuys';
 	public title_01 = 'We offer different ranges of multibuys and multibuy offers';
 }

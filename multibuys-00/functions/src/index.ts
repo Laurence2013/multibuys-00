@@ -8,8 +8,12 @@
  */
 
 import {setGlobalOptions} from "firebase-functions";
-import {onRequest} from "firebase-functions/https";
+import {onRequest, onCall, HttpsError} from "firebase-functions/https";
 import * as logger from "firebase-functions/logger";
+import * as admin from "firebase-admin";
+
+admin.initializeApp();
+const db = admin.firestore();
 
 // Start writing functions
 // https://firebase.google.com/docs/functions/typescript
@@ -29,4 +33,9 @@ setGlobalOptions({maxInstances: 10});
 export const helloWorld = onRequest((request, response) => {
 	logger.info("Hello logs!", {structuredData: true});
 	response.send("Hello from Firebase! - this is from DESKTOP multibuys-00");
+});
+export const title00 = onCall(async (data, context) => {
+	const docRef = db.collection("landing-page");
+
+	console.log(docRef);
 });
