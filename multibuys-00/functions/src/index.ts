@@ -1,37 +1,43 @@
-import * as functions from 'firebase-functions';
+import { setGlobalOptions } from 'firebase-functions';
+import { onRequest, onCall, HttpsError } from 'firebase-functions/https';
+import * as logger from 'firebase-functions/logger';
 import * as admin from 'firebase-admin';
+// import axios from 'axios';
 
-// Initialize the Firebase Admin SDK if it hasn't been already.
-// The SDK will automatically detect the emulator environment.
-if (admin.apps.length === 0) {
-    admin.initializeApp();
-}
-
+admin.initializeApp();
 const db = admin.firestore();
 
-export const title00 = functions.https.onCall(async (data, context) => {
-    // Check if the user is authenticated (optional, but good practice)
-    if (!context.auth) {
-        throw new functions.https.HttpsError('unauthenticated', 'The function must be called while authenticated.');
-    }
+setGlobalOptions({ maxInstances: 10 });
 
-    const { collectionPath, docId } = data;
+export const helloWorld = onRequest((request, response) => {
+	logger.info('Hello logs!', { structuredData: true });
+	response.send('Hello from Firebase! - this is from DESKTOP multibuys-00');
+});
+export const title00 = onCall(async (data, context) => {
+	try {
+		const docRef = db.collection('landing-page').doc('6oxpewaCNbvdzcDy2T7F');
+		const doc = await docRef.get();
 
-    if (!collectionPath || !docId) {
-        throw new functions.https.HttpsError('invalid-argument', 'Missing collectionPath or docId.');
-    }
+		logger.info(doc.data());
+	} catch (err) {
+		console.error('Error fetching email: ', err);
+		throw new HttpsError(
+			'unknown',
+			'Unable to getch title'
+		);
+	}
+});
+export const title01 = onRequest(async (request, response) => {
+	try {
+		const docRef = db.collection('landing-page').doc('6oxpewaCNbvdzcDy2T7F');
+		const doc = await docRef.get();
 
-    try {
-        const docRef = db.collection(collectionPath).doc(docId);
-        const docSnap = await docRef.get();
-
-        if (!docSnap.exists) {
-            return { message: 'Document not found.' };
-        } else {
-            return docSnap.data();
-        }
-    } catch (error) {
-        console.error('Error fetching document:', error);
-        throw new functions.https.HttpsError('internal', 'Unable to fetch document data.');
-    }
+		response.send(doc.data());
+	} catch (err) {
+		console.error('Error fetching email: ', err);
+		throw new HttpsError(
+			'unknown',
+			'Unable to getch title'
+		);
+	}
 });
