@@ -1,14 +1,16 @@
 <div class="bg-gray-950 text-white min-h-screen font-sans antialiased">
 
       <!-- Navigation Bar -->
-      <nav class="container mx-auto px-4 py-6 flex justify-between items-center z-10 sticky top-0 bg-gray-950 bg-opacity-90 backdrop-blur-sm rounded-b-xl">
-				<a href="#" class="text-2xl font-bold tracking-tight text-white">{{ title_00 }}</a>
-        <div class="space-x-4 hidden md:flex">
-          <a href="#" class="text-gray-300 hover:text-white transition-colors duration-200">Features</a>
-          <a href="#" class="text-gray-300 hover:text-white transition-colors duration-200">Pricing</a>
-          <a href="#" class="text-gray-300 hover:text-white transition-colors duration-200">Contact</a>
-        </div>
-      </nav>
+			@if(landingPageData$ | async; as data){
+				<nav class="container mx-auto px-4 py-6 flex justify-between items-center z-10 sticky top-0 bg-gray-950 bg-opacity-90 backdrop-blur-sm rounded-b-xl">
+					<a href="#" class="text-2xl font-bold tracking-tight text-white">{{ data.title_00.toLowerCase() }}</a>
+					<div class="space-x-4 hidden md:flex">
+						<a href="#" class="text-gray-300 hover:text-white transition-colors duration-200">Features</a>
+						<a href="#" class="text-gray-300 hover:text-white transition-colors duration-200">Pricing</a>
+						<a href="#" class="text-gray-300 hover:text-white transition-colors duration-200">Contact</a>
+					</div>
+				</nav>
+			}
 
       <main>
         <!-- Hero Section -->

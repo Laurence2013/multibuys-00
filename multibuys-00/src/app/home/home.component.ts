@@ -1,23 +1,25 @@
 import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+import { Observable } from 'rxjs';
 
 import { LandingPageService } from '../services/landing-page/landing-page.service';
 
 @Component({
   selector: 'app-home',
 	standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
 export class HomeComponent implements OnInit {
-	public title_00?:string;
-	public title_01 = 'We offer different ranges of multibuys and multibuy offers';
+	public landingPageData$!: Observable<any>;
 
 	public constructor(private landingPageService: LandingPageService){}
 	public ngOnInit(): void {
-		this.getLandingPageData();
-	}
-	public getLandingPageData(): void {
-		this.landingPageService.getLandingPageData().subscribe(data => this.title_00 = data.title00.toLowerCase());
+		this.getLandingPageData01();
+	}	
+	public getLandingPageData01(): void {
+		this.landingPageData$ = this.landingPageService.getLandingPageData();
 	}
 }
