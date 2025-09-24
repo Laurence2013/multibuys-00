@@ -77,22 +77,25 @@
     <section class="container mx-auto px-4 py-16 md:py-24 text-center">
       <div class="bg-gray-800 p-8 rounded-2xl border border-gray-700 shadow-xl">
         <h2 class="text-3xl font-bold mb-4">Stay up to date</h2>
-        <p class="text-gray-400 max-w-2xl mx-auto mb-8">
-          Get the latest updates, exclusive offers, and insights delivered directly to your inbox.
-        </p>
-        <form class="flex flex-col sm:flex-row justify-center items-center gap-4">
-          <input
-            type="email"
-            placeholder="Enter your email"
-            class="w-full sm:w-80 px-4 py-3 rounded-full text-white bg-gray-700 border border-transparent focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500 transition-colors duration-200"
-          />
-          <button
-            type="submit"
-            class="w-full sm:w-auto bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-8 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-          >
-            Subscribe
-          </button>
-        </form>
+        <p class="text-gray-400 max-w-2xl mx-auto mb-8">Get the latest updates, exclusive offers, and insights delivered directly to your inbox.</p>
+				<form [formGroup]="emailForm" (ngSubmit)="onEmailSubmit()">
+					<input 
+					type="email" 
+					placeholder="Enter your email" 
+					formControlName="email"
+					class="w-full sm:w-80 px-4 py-3 rounded-full text-white bg-gray-700 border border-transparent focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500 transition-colors duration-200" />
+					<button
+						type="submit"
+						[disabled]="emailForm.invalid"
+						class="w-full sm:w-auto bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-8 rounded-full shadow-lg hover:shadow-xl
+						transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 m-1"
+					>Subscribe
+					</button>
+					<div *ngIf="emailForm.get('email')?.invalid && emailForm.get('email')?.touched" class="m-4">
+						<div *ngIf="emailForm.get('email')?.errors?.['required']" class="text-red-500">Email is required.</div>
+						<div *ngIf="emailForm.get('email')?.errors?.['email']" class="text-red-500">Please enter a valid email address.</div>
+					</div>
+				</form>
       </div>
     </section>
   </main>
