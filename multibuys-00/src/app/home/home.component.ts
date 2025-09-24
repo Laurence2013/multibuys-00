@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule, FormBuilder, FormGroup, Validators } from '@angular/forms';
 
@@ -17,7 +18,7 @@ export class HomeComponent implements OnInit {
 	public landingPageData$!: Observable<any>;
 	public emailForm!: FormGroup;
 
-	public constructor(private landingPageService: LandingPageService, private fb: FormBuilder){}
+	public constructor(private landingPageService: LandingPageService, private fb: FormBuilder, private router: Router){}
 	public ngOnInit(){
 		this.getLandingPageData01();
 		this.emailForm = this.fb.group({email: ['', [Validators.required, Validators.email]]});
@@ -27,9 +28,10 @@ export class HomeComponent implements OnInit {
 	}
 	public onEmailSubmit(){
 		if(this.emailForm.valid){
-			console.log('Form data: ', this.emailForm.value)
+			console.log('Form data: ', this.emailForm.value);
+			this.router.navigate(['/thank-you']);
 		}else{
-			console.log('Form is invalid');
+			console.error('Form is invalid');
 			this.emailForm.markAllAsTouched();
 		}
 	}

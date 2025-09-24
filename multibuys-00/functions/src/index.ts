@@ -1,5 +1,5 @@
 import { setGlobalOptions } from 'firebase-functions';
-import { onRequest, HttpsError } from 'firebase-functions/https';
+import { onRequest, onCall, HttpsError } from 'firebase-functions/https';
 import * as logger from 'firebase-functions/logger';
 import * as admin from 'firebase-admin';
 
@@ -25,4 +25,12 @@ export const title01 = onRequest(async (request, response) => {
 			'Unable to getch title'
 		);
 	}
+});
+export const addEmailAddress = onCall(async (data, context) => {
+	const { id, email_address } = data;
+	const emailRef = db.collection('newsletter').doc(id.toString());
+
+	await emailRef.set({ email: email_address, timestamp: admin.firestore.FieldValue });
+
+	return {result: `Email ${email_address} added with ID: ${id}`};
 });
