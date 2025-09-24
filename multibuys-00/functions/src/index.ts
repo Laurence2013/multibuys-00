@@ -14,7 +14,7 @@ export const helloWorld = onRequest((request, response) => {
 });
 export const title01 = onRequest(async (request, response) => {
 	try {
-		const docRef = db.collection('landing-page').doc('6oxpewaCNbvdzcDy2T7F');
+		const docRef = db.collection('landing-page').doc('hNoBO8OvJXKnAAzHscJG');
 		const doc = await docRef.get();
 
 		response.send(doc.data());

@@ -11,14 +11,14 @@
       <div class="relative max-w-4xl mx-auto">
         <h1 class="text-5xl sm:text-5xl md:text-5xl font-extrabold tracking-tight mb-4 leading-tight">
 					{{ data.desc_00 }}
-					<span class="block mt-5 text-indigo-400">{{ data.desc_01 }}</span>
+					<span class="block mt-3 text-indigo-400 text-3xl">{{ data.desc_01 }}</span>
         </h1>
         <p class="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto">{{ data.desc_02 }}</p>
+				<!--<p class="text-2xl font-bold text-center mb-5">{{ data.title_01 }}</p>-->
       </div>
     </section>
     <!-- Features Section -->
     <section class="container mx-auto px-1">
-			<h2 class="text-3xl font-bold text-center mb-12">{{ data.title_01 }}</h2>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- Feature Card 1 -->
         <div class="bg-gray-800 p-8 rounded-2xl border border-gray-700 hover:border-indigo-600 transition-colors duration-300 shadow-lg">
@@ -27,8 +27,8 @@
               <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
             </svg>
           </div>
-          <h3 class="text-xl font-bold mb-2">Blazing Fast</h3>
-          <p class="text-gray-400">Experience unparalleled speed and performance with our optimized infrastructure.</p>
+					<h3 class="text-xl font-bold mb-2">{{ data.box_01_title }}</h3>
+					<p class="text-gray-400">{{ data.box_01_desc }}</p>
         </div>
 
         <!-- Feature Card 2 -->
@@ -39,8 +39,8 @@
               <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
             </svg>
           </div>
-          <h3 class="text-xl font-bold mb-2">Secure & Reliable</h3>
-          <p class="text-gray-400">Your data is safe with us. We ensure top-tier security and reliability for all your needs.</p>
+					<h3 class="text-xl font-bold mb-2">{{ data.box_02_title }}</h3>
+					<p class="text-gray-400">{{ data.box_02_desc }}</p>
         </div>
 
         <!-- Feature Card 3 -->
@@ -53,8 +53,8 @@
               <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
             </svg>
           </div>
-          <h3 class="text-xl font-bold mb-2">Collaborative</h3>
-          <p class="text-gray-400">Work together with your team in real-time on the same project without any hassle.</p>
+					<h3 class="text-xl font-bold mb-2">{{ data.box_03_title }}</h3>
+					<p class="text-gray-400">{{ data.box_03_desc }}</p>
         </div>
 
         <!-- Feature Card 4 -->
@@ -67,8 +67,8 @@
               ></path>
             </svg>
           </div>
-          <h3 class="text-xl font-bold mb-2">Customizable</h3>
-          <p class="text-gray-400">Tailor the platform to your specific needs with a wide range of customization options.</p>
+					<h3 class="text-xl font-bold mb-2">{{ data.box_04_title }}</h3>
+					<p class="text-gray-400">{{ data.box_04_desc }}</p>
         </div>
       </div>
     </section>
@@ -96,14 +96,14 @@
       </div>
     </section>
   </main>
-  }
   <!-- Footer -->
   <footer class="bg-gray-950 py-8 px-4 border-t border-gray-800 text-center">
-    <p class="text-gray-500 text-sm">&copy; 2024 YourApp. All rights reserved.</p>
+		<p class="text-gray-500 text-m">&copy; {{ data.footer_title }}</p>
     <div class="flex justify-center space-x-4 mt-4 text-gray-500">
       <a href="#" class="hover:text-white transition-colors duration-200">Privacy Policy</a>
       <span class="text-gray-700">•</span>
       <a href="#" class="hover:text-white transition-colors duration-200">Terms of Service</a>
     </div>
   </footer>
+  }
 </div>
