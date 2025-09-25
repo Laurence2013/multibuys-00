@@ -30,7 +30,7 @@ export class HomeComponent implements OnInit {
 	public onEmailSubmit(){
 		if(this.emailForm.valid){
 			this.landingPageService.getEmailAddress(this.emailForm.value).subscribe();
-			//this.router.navigate(['/thank-you']);
+			this.router.navigate(['/thank-you']);
 		}else{
 			console.error('Form is invalid');
 			this.emailForm.markAllAsTouched();
