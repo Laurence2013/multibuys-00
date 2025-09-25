@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule, FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 import { Observable } from 'rxjs';
+import { tap, map } from 'rxjs/operators';
 
 import { LandingPageService } from '../services/landing-page/landing-page.service';
 
@@ -28,8 +29,8 @@ export class HomeComponent implements OnInit {
 	}
 	public onEmailSubmit(){
 		if(this.emailForm.valid){
-			console.log('Form data: ', this.emailForm.value);
-			this.router.navigate(['/thank-you']);
+			this.landingPageService.getEmailAddress(this.emailForm.value).subscribe();
+			//this.router.navigate(['/thank-you']);
 		}else{
 			console.error('Form is invalid');
 			this.emailForm.markAllAsTouched();

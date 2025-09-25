@@ -6,10 +6,15 @@ import { Observable, of } from 'rxjs';
 @Injectable({providedIn: 'root'})
 export class LandingPageService {
 
-	private apiUrl:string = 'http://127.0.0.1:5001/multibuys-00/us-central1/title01';
+	private titleUrl:string = 'http://127.0.0.1:5001/multibuys-00/us-central1/title01';
+	private emailUrl: string = 'http://127.0.0.1:5001/multibuys-00/us-central1/addEmailAddress';
 
 	public constructor(private http: HttpClient){}
 	public getLandingPageData(): Observable<any> {
-		return this.http.get<any>(this.apiUrl);
+		return this.http.get<any>(this.titleUrl);
+	}
+	public getEmailAddress(data: any): Observable<any> {
+		console.log('From service: ', data.email);
+		return this.http.post(this.emailUrl, data.email);
 	}
 }

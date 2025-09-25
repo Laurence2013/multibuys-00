@@ -1,5 +1,5 @@
 import { setGlobalOptions } from 'firebase-functions';
-import { onRequest, onCall, HttpsError } from 'firebase-functions/https';
+import { onRequest, HttpsError } from 'firebase-functions/https';
 import * as logger from 'firebase-functions/logger';
 import * as admin from 'firebase-admin';
 
@@ -22,15 +22,26 @@ export const title01 = onRequest(async (request, response) => {
 		console.error('Error fetching email: ', err);
 		throw new HttpsError(
 			'unknown',
-			'Unable to getch title'
+			'Unable to fetch title'
 		);
 	}
 });
-export const addEmailAddress = onCall(async (data, context) => {
-	const { id, email_address } = data;
-	const emailRef = db.collection('newsletter').doc(id.toString());
+export const addEmailAddress = onRequest(async (request, response) => {
+	if (request.method !== 'POST') response.status(405).send('Method Not Allowed');
+	const email = request.body;
+	if (!email) response.status(400).send('Email address is required');
 
-	await emailRef.set({ email: email_address, timestamp: admin.firestore.FieldValue });
+	const emailAdd = {
+		id: 1,
+		email_address: email,
+	};
 
-	return {result: `Email ${email_address} added with ID: ${id}`};
+	try {
+		const docRef = await db.collection('newsletter').add(emailAdd);
+		logger.info('Successfully saved email address');
+		response.status(200).send({ message: 'Email saved successfully', docId: docRef.id });
+	} catch (error) {
+		console.error('Error saving email to Firestore:', error);
+		response.status(500).send({ error: 'Failed to save email to database.' });
+	}
 });
