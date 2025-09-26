@@ -2,6 +2,7 @@
 
 # Don't include .env
 .env
+/environments
 
 # Compiled output
 /dist
