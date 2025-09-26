@@ -2,9 +2,11 @@
   "name": "multibuys-00",
   "version": "0.0.0",
   "scripts": {
+		"prestart": "node ./servers/set-env.js",
+		"prebuild":"node ./servers/set-env.js",
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": " npm run prestart && ng serve",
+    "build": "npm run prebuild && ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
