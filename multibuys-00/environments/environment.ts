@@ -1,13 +1,13 @@
 export const environment = {
-	production: false,
-	useEmulators: true,
+	production: process.env['PRODUCTION'],
+	useEmulators: process.env['USE_EMULATORS'],
 	firebaseConfig: {
-		apiKey: "AIzaSyBIL5dVUE-31_yoJnYayNCx2VG-BZodD8U",
-		authDomain: "multibuys-00.firebaseapp.com",
-		projectId: "multibuys-00",
-		storageBucket: "multibuys-00.firebasestorage.app",
-		messagingSenderId: "503878691074",
-		appId: "1:503878691074:web:667402c8e96f7d12e37a1b",
-		measurementId: "G-PDB724W3EZ"
+		apiKey: process.env['API_KEY'],
+		authDomain: process.env['AUTH_DOMAIN'],
+		projectId: process.env['PROJECT_ID'],
+		storageBucket: process.env['STORAGE_BUCKET'],
+		messagingSenderId: process.env['MESSAGING_SENDER_ID'],
+		appId: process.env['APP_ID'],
+		measurementId: process.env['MEASUREMENT_ID'],
 	}
 }
