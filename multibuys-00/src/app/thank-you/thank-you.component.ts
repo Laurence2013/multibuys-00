@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 import { Observable } from 'rxjs';
 
@@ -7,7 +8,7 @@ import { LandingPageService } from '../services/landing-page/landing-page.servic
 
 @Component({
   selector: 'app-thank-you',
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   templateUrl: './thank-you.component.html',
   styleUrl: './thank-you.component.scss'
 })

@@ -723,3 +723,404 @@ INFO: Detected non-HTTP/2 connection.
 [debug] [2025-09-26T19:05:21.386Z] Sep 26, 2025 8:05:21 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
  {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:05:21 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:06:05.909Z] Sep 26, 2025 8:06:05 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:06:05 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:06:05.969Z] Sep 26, 2025 8:06:05 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:06:05 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:06:07.448Z] Sep 26, 2025 8:06:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:06:07 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:06:09.555Z] Sep 26, 2025 8:06:09 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:06:09 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:06:09.726Z] Sep 26, 2025 8:06:09 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:06:09 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:06:10.970Z] Sep 26, 2025 8:06:10 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:06:10 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:06:13.369Z] Sep 26, 2025 8:06:13 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:06:13 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:06:58.395Z] Sep 26, 2025 8:06:58 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:06:58 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:07:44.398Z] Sep 26, 2025 8:07:44 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:07:44 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:08:30.401Z] Sep 26, 2025 8:08:30 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:08:30 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:09:16.403Z] Sep 26, 2025 8:09:16 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:09:16 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:10:02.504Z] Sep 26, 2025 8:10:02 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:10:02 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:10:02.831Z] [work-queue] {"queuedWork":["/multibuys-00/us-central1/title01-2025-09-26T19:10:02.831Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:10:02.831Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/multibuys-00/us-central1/title01-2025-09-26T19:10:02.831Z"],"workRunningCount":1}
+[debug] [2025-09-26T19:10:02.832Z] Accepted request GET /multibuys-00/us-central1/title01 --> us-central1-title01
+[debug] [2025-09-26T19:10:02.833Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-09-26T19:10:02.834Z] [functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/"}}
+[debug] [2025-09-26T19:10:02.834Z] [worker-pool] submitRequest(triggerId=us-central1-title01) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-title01)"}}
+[info] i  functions: Beginning execution of "us-central1-title01" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Beginning execution of \"us-central1-title01\""}}
+[debug] [2025-09-26T19:10:02.834Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY"}}
+[debug] [2025-09-26T19:10:02.847Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-title01" in 13.056942ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finished \"us-central1-title01\" in 13.056942ms"}}
+[debug] [2025-09-26T19:10:02.848Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE"}}
+[debug] [2025-09-26T19:10:02.848Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-09-26T19:10:02.848Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-09-26T19:10:02.848Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:10:48.398Z] Sep 26, 2025 8:10:48 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:10:48 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:11:34.398Z] Sep 26, 2025 8:11:34 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:11:34 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:12:20.405Z] Sep 26, 2025 8:12:20 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:12:20 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:12:29.167Z] [work-queue] {"queuedWork":["/multibuys-00/us-central1/title01-2025-09-26T19:12:29.167Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:12:29.168Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/multibuys-00/us-central1/title01-2025-09-26T19:12:29.167Z"],"workRunningCount":1}
+[debug] [2025-09-26T19:12:29.168Z] Accepted request GET /multibuys-00/us-central1/title01 --> us-central1-title01
+[debug] [2025-09-26T19:12:29.169Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-09-26T19:12:29.169Z] [functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/"}}
+[debug] [2025-09-26T19:12:29.170Z] [worker-pool] submitRequest(triggerId=us-central1-title01) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-title01)"}}
+[info] i  functions: Beginning execution of "us-central1-title01" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Beginning execution of \"us-central1-title01\""}}
+[debug] [2025-09-26T19:12:29.170Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY"}}
+[debug] [2025-09-26T19:12:29.183Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-title01" in 13.359868ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finished \"us-central1-title01\" in 13.359868ms"}}
+[debug] [2025-09-26T19:12:29.183Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE"}}
+[debug] [2025-09-26T19:12:29.183Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-09-26T19:12:29.184Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-09-26T19:12:29.184Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:12:37.131Z] Sep 26, 2025 8:12:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:12:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:12:37.132Z] Sep 26, 2025 8:12:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:12:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:12:37.136Z] Sep 26, 2025 8:12:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:12:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:12:37.178Z] Sep 26, 2025 8:12:37 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
+INFO: Websocket client disconnected
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:12:37 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed\nINFO: Websocket client disconnected\n"}}
+[debug] [2025-09-26T19:12:37.187Z] Sep 26, 2025 8:12:37 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
+INFO: Connected to new websocket client
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:12:37 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\nINFO: Connected to new websocket client\n"}}
+[debug] [2025-09-26T19:12:37.243Z] Sep 26, 2025 8:12:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:12:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:12:37.287Z] Sep 26, 2025 8:12:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:12:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:12:37.314Z] Sep 26, 2025 8:12:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:12:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:13:22.396Z] Sep 26, 2025 8:13:22 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:13:22 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:13:48.880Z] [work-queue] {"queuedWork":["/multibuys-00/us-central1/title01-2025-09-26T19:13:48.880Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:13:48.880Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/multibuys-00/us-central1/title01-2025-09-26T19:13:48.880Z"],"workRunningCount":1}
+[debug] [2025-09-26T19:13:48.880Z] Accepted request GET /multibuys-00/us-central1/title01 --> us-central1-title01
+[debug] [2025-09-26T19:13:48.882Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-09-26T19:13:48.882Z] [functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/"}}
+[debug] [2025-09-26T19:13:48.882Z] [worker-pool] submitRequest(triggerId=us-central1-title01) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-title01)"}}
+[info] i  functions: Beginning execution of "us-central1-title01" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Beginning execution of \"us-central1-title01\""}}
+[debug] [2025-09-26T19:13:48.882Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY"}}
+[debug] [2025-09-26T19:13:48.893Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-title01" in 14.588072ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finished \"us-central1-title01\" in 14.588072ms"}}
+[debug] [2025-09-26T19:13:48.898Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE"}}
+[debug] [2025-09-26T19:13:48.898Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-09-26T19:13:48.898Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-09-26T19:13:48.898Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:13:52.684Z] [work-queue] {"queuedWork":["/multibuys-00/us-central1/title01-2025-09-26T19:13:52.684Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:13:52.684Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/multibuys-00/us-central1/title01-2025-09-26T19:13:52.684Z"],"workRunningCount":1}
+[debug] [2025-09-26T19:13:52.684Z] Accepted request GET /multibuys-00/us-central1/title01 --> us-central1-title01
+[debug] [2025-09-26T19:13:52.685Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-09-26T19:13:52.685Z] [functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/"}}
+[debug] [2025-09-26T19:13:52.685Z] [worker-pool] submitRequest(triggerId=us-central1-title01) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-title01)"}}
+[info] i  functions: Beginning execution of "us-central1-title01" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Beginning execution of \"us-central1-title01\""}}
+[debug] [2025-09-26T19:13:52.686Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY"}}
+[debug] [2025-09-26T19:13:52.699Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-title01" in 13.496683ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finished \"us-central1-title01\" in 13.496683ms"}}
+[debug] [2025-09-26T19:13:52.699Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE"}}
+[debug] [2025-09-26T19:13:52.699Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-09-26T19:13:52.699Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-09-26T19:13:52.700Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:13:54.361Z] [work-queue] {"queuedWork":["/multibuys-00/us-central1/title01-2025-09-26T19:13:54.361Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:13:54.361Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/multibuys-00/us-central1/title01-2025-09-26T19:13:54.361Z"],"workRunningCount":1}
+[debug] [2025-09-26T19:13:54.361Z] Accepted request GET /multibuys-00/us-central1/title01 --> us-central1-title01
+[debug] [2025-09-26T19:13:54.362Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-09-26T19:13:54.362Z] [functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/"}}
+[debug] [2025-09-26T19:13:54.362Z] [worker-pool] submitRequest(triggerId=us-central1-title01) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-title01)"}}
+[info] i  functions: Beginning execution of "us-central1-title01" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Beginning execution of \"us-central1-title01\""}}
+[debug] [2025-09-26T19:13:54.362Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY"}}
+[debug] [2025-09-26T19:13:54.374Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-title01" in 12.735985ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finished \"us-central1-title01\" in 12.735985ms"}}
+[debug] [2025-09-26T19:13:54.375Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE"}}
+[debug] [2025-09-26T19:13:54.375Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-09-26T19:13:54.375Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-09-26T19:13:54.375Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:13:56.388Z] [work-queue] {"queuedWork":["/multibuys-00/us-central1/title01-2025-09-26T19:13:56.388Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:13:56.388Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/multibuys-00/us-central1/title01-2025-09-26T19:13:56.388Z"],"workRunningCount":1}
+[debug] [2025-09-26T19:13:56.388Z] Accepted request GET /multibuys-00/us-central1/title01 --> us-central1-title01
+[debug] [2025-09-26T19:13:56.389Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-09-26T19:13:56.389Z] [functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/"}}
+[debug] [2025-09-26T19:13:56.389Z] [worker-pool] submitRequest(triggerId=us-central1-title01) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-title01)"}}
+[info] i  functions: Beginning execution of "us-central1-title01" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Beginning execution of \"us-central1-title01\""}}
+[debug] [2025-09-26T19:13:56.389Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY"}}
+[debug] [2025-09-26T19:13:56.399Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-title01" in 9.463225ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finished \"us-central1-title01\" in 9.463225ms"}}
+[debug] [2025-09-26T19:13:56.399Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE"}}
+[debug] [2025-09-26T19:13:56.399Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-09-26T19:13:56.399Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-09-26T19:13:56.399Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:13:57.853Z] [work-queue] {"queuedWork":["/multibuys-00/us-central1/title01-2025-09-26T19:13:57.853Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:13:57.853Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/multibuys-00/us-central1/title01-2025-09-26T19:13:57.853Z"],"workRunningCount":1}
+[debug] [2025-09-26T19:13:57.853Z] Accepted request GET /multibuys-00/us-central1/title01 --> us-central1-title01
+[debug] [2025-09-26T19:13:57.854Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-09-26T19:13:57.854Z] [functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/"}}
+[debug] [2025-09-26T19:13:57.854Z] [worker-pool] submitRequest(triggerId=us-central1-title01) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-title01)"}}
+[info] i  functions: Beginning execution of "us-central1-title01" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Beginning execution of \"us-central1-title01\""}}
+[debug] [2025-09-26T19:13:57.854Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY"}}
+[debug] [2025-09-26T19:13:57.862Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-title01" in 8.127404ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finished \"us-central1-title01\" in 8.127404ms"}}
+[debug] [2025-09-26T19:13:57.863Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE"}}
+[debug] [2025-09-26T19:13:57.863Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-09-26T19:13:57.863Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-09-26T19:13:57.863Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:14:08.395Z] Sep 26, 2025 8:14:08 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:14:08 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:14:21.323Z] [work-queue] {"queuedWork":["/multibuys-00/us-central1/title01-2025-09-26T19:14:21.323Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:14:21.324Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/multibuys-00/us-central1/title01-2025-09-26T19:14:21.323Z"],"workRunningCount":1}
+[debug] [2025-09-26T19:14:21.324Z] Accepted request GET /multibuys-00/us-central1/title01 --> us-central1-title01
+[debug] [2025-09-26T19:14:21.329Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-09-26T19:14:21.329Z] [functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/"}}
+[debug] [2025-09-26T19:14:21.329Z] [worker-pool] submitRequest(triggerId=us-central1-title01) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-title01)"}}
+[info] i  functions: Beginning execution of "us-central1-title01" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Beginning execution of \"us-central1-title01\""}}
+[debug] [2025-09-26T19:14:21.330Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY"}}
+[debug] [2025-09-26T19:14:21.350Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-title01" in 20.949236ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finished \"us-central1-title01\" in 20.949236ms"}}
+[debug] [2025-09-26T19:14:21.351Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE"}}
+[debug] [2025-09-26T19:14:21.351Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-09-26T19:14:21.352Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-09-26T19:14:21.352Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:14:22.677Z] [work-queue] {"queuedWork":["/multibuys-00/us-central1/title01-2025-09-26T19:14:22.677Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:14:22.677Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/multibuys-00/us-central1/title01-2025-09-26T19:14:22.677Z"],"workRunningCount":1}
+[debug] [2025-09-26T19:14:22.677Z] Accepted request GET /multibuys-00/us-central1/title01 --> us-central1-title01
+[debug] [2025-09-26T19:14:22.677Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-09-26T19:14:22.677Z] [functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/"}}
+[debug] [2025-09-26T19:14:22.678Z] [worker-pool] submitRequest(triggerId=us-central1-title01) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-title01)"}}
+[info] i  functions: Beginning execution of "us-central1-title01" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Beginning execution of \"us-central1-title01\""}}
+[debug] [2025-09-26T19:14:22.678Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY"}}
+[debug] [2025-09-26T19:14:22.686Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-title01" in 8.836173ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finished \"us-central1-title01\" in 8.836173ms"}}
+[debug] [2025-09-26T19:14:22.687Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE"}}
+[debug] [2025-09-26T19:14:22.687Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-09-26T19:14:22.687Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-09-26T19:14:22.687Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:14:23.912Z] Sep 26, 2025 8:14:23 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
+INFO: Websocket client disconnected
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:14:23 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed\nINFO: Websocket client disconnected\n"}}
+[debug] [2025-09-26T19:14:24.004Z] Sep 26, 2025 8:14:24 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
+INFO: Connected to new websocket client
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:14:24 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\nINFO: Connected to new websocket client\n"}}
+[debug] [2025-09-26T19:14:24.004Z] Sep 26, 2025 8:14:24 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:14:24 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:14:24.017Z] Sep 26, 2025 8:14:24 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:14:24 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:14:24.030Z] Sep 26, 2025 8:14:24 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:14:24 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:14:24.984Z] Sep 26, 2025 8:14:24 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:14:24 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:14:25.964Z] Sep 26, 2025 8:14:25 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:14:25 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:14:26.574Z] Sep 26, 2025 8:14:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:14:26 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:14:27.125Z] Sep 26, 2025 8:14:27 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:14:27 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:14:35.651Z] [work-queue] {"queuedWork":["/multibuys-00/us-central1/addEmailAddress-2025-09-26T19:14:35.651Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:14:35.652Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/multibuys-00/us-central1/addEmailAddress-2025-09-26T19:14:35.651Z"],"workRunningCount":1}
+[debug] [2025-09-26T19:14:35.652Z] Accepted request POST /multibuys-00/us-central1/addEmailAddress --> us-central1-addEmailAddress
+[debug] [2025-09-26T19:14:35.653Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-09-26T19:14:35.654Z] [functions] Got req.url=/multibuys-00/us-central1/addEmailAddress, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/multibuys-00/us-central1/addEmailAddress, mapping to path=/"}}
+[debug] [2025-09-26T19:14:35.654Z] [worker-pool] submitRequest(triggerId=us-central1-addEmailAddress) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-addEmailAddress)"}}
+[info] i  functions: Beginning execution of "us-central1-addEmailAddress" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-addEmailAddress"},"extension":{},"message":"Beginning execution of \"us-central1-addEmailAddress\""}}
+[debug] [2025-09-26T19:14:35.654Z] [worker-us-central1-addEmailAddress-3996595b-df61-4b22-8a3c-f72362ca8767]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-addEmailAddress"},"extension":{},"message":"[worker-us-central1-addEmailAddress-3996595b-df61-4b22-8a3c-f72362ca8767]: BUSY"}}
+[debug] [2025-09-26T19:14:35.668Z] [work-queue] {"queuedWork":["/multibuys-00/us-central1/title01-2025-09-26T19:14:35.668Z"],"queueLength":1,"runningWork":["/multibuys-00/us-central1/addEmailAddress-2025-09-26T19:14:35.651Z"],"workRunningCount":1}
+[debug] [2025-09-26T19:14:35.668Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/multibuys-00/us-central1/addEmailAddress-2025-09-26T19:14:35.651Z","/multibuys-00/us-central1/title01-2025-09-26T19:14:35.668Z"],"workRunningCount":2}
+[debug] [2025-09-26T19:14:35.668Z] Accepted request GET /multibuys-00/us-central1/title01 --> us-central1-title01
+[debug] [2025-09-26T19:14:35.670Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-09-26T19:14:35.670Z] [functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/"}}
+[debug] [2025-09-26T19:14:35.670Z] [worker-pool] submitRequest(triggerId=us-central1-title01) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-title01)"}}
+[info] i  functions: Beginning execution of "us-central1-title01" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Beginning execution of \"us-central1-title01\""}}
+[debug] [2025-09-26T19:14:35.671Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY"}}
+[debug] [2025-09-26T19:14:35.689Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-title01" in 18.976167ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finished \"us-central1-title01\" in 18.976167ms"}}
+[debug] [2025-09-26T19:14:35.690Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE"}}
+[debug] [2025-09-26T19:14:35.690Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-09-26T19:14:35.690Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-09-26T19:14:35.690Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/multibuys-00/us-central1/addEmailAddress-2025-09-26T19:14:35.651Z"],"workRunningCount":1}
+[info] >  {"severity":"INFO","message":"Successfully saved email address"} {"user":{"severity":"INFO","message":"Successfully saved email address"},"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-addEmailAddress"},"extension":{},"message":"\u001b[90m> \u001b[39m {\"severity\":\"INFO\",\"message\":\"Successfully saved email address\"}"}}
+[debug] [2025-09-26T19:14:35.703Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-addEmailAddress"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-addEmailAddress" in 48.987158ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-addEmailAddress"},"extension":{},"message":"Finished \"us-central1-addEmailAddress\" in 48.987158ms"}}
+[debug] [2025-09-26T19:14:35.703Z] [worker-us-central1-addEmailAddress-3996595b-df61-4b22-8a3c-f72362ca8767]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-addEmailAddress"},"extension":{},"message":"[worker-us-central1-addEmailAddress-3996595b-df61-4b22-8a3c-f72362ca8767]: IDLE"}}
+[debug] [2025-09-26T19:14:35.703Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-addEmailAddress"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-09-26T19:14:35.703Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-addEmailAddress"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-09-26T19:14:35.703Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:14:37.721Z] Sep 26, 2025 8:14:37 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
+INFO: Websocket client disconnected
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:14:37 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed\nINFO: Websocket client disconnected\n"}}
+[debug] [2025-09-26T19:14:37.751Z] Sep 26, 2025 8:14:37 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
+INFO: Connected to new websocket client
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:14:37 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\nINFO: Connected to new websocket client\n"}}
+[debug] [2025-09-26T19:14:37.767Z] Sep 26, 2025 8:14:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:14:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:14:37.795Z] Sep 26, 2025 8:14:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:14:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:14:37.831Z] Sep 26, 2025 8:14:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:14:37 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:14:39.062Z] Sep 26, 2025 8:14:39 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:14:39 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:14:39.779Z] Sep 26, 2025 8:14:39 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:14:39 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:14:40.169Z] Sep 26, 2025 8:14:40 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:14:40 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:14:45.984Z] [work-queue] {"queuedWork":["/multibuys-00/us-central1/title01-2025-09-26T19:14:45.984Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:14:45.984Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/multibuys-00/us-central1/title01-2025-09-26T19:14:45.984Z"],"workRunningCount":1}
+[debug] [2025-09-26T19:14:45.984Z] Accepted request GET /multibuys-00/us-central1/title01 --> us-central1-title01
+[debug] [2025-09-26T19:14:45.986Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-09-26T19:14:45.986Z] [functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/"}}
+[debug] [2025-09-26T19:14:45.986Z] [worker-pool] submitRequest(triggerId=us-central1-title01) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-title01)"}}
+[info] i  functions: Beginning execution of "us-central1-title01" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Beginning execution of \"us-central1-title01\""}}
+[debug] [2025-09-26T19:14:45.986Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY"}}
+[debug] [2025-09-26T19:14:45.994Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-title01" in 7.990466ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finished \"us-central1-title01\" in 7.990466ms"}}
+[debug] [2025-09-26T19:14:45.995Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE"}}
+[debug] [2025-09-26T19:14:45.995Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-09-26T19:14:45.995Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-09-26T19:14:45.995Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:14:51.036Z] Sep 26, 2025 8:14:51 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
+INFO: Websocket client disconnected
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:14:51 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed\nINFO: Websocket client disconnected\n"}}
+[debug] [2025-09-26T19:14:51.056Z] Sep 26, 2025 8:14:51 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
+INFO: Connected to new websocket client
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:14:51 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\nINFO: Connected to new websocket client\n"}}
+[debug] [2025-09-26T19:14:51.078Z] Sep 26, 2025 8:14:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:14:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:14:51.094Z] Sep 26, 2025 8:14:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:14:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:14:51.112Z] Sep 26, 2025 8:14:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:14:51 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:15:08.448Z] [work-queue] {"queuedWork":["/multibuys-00/us-central1/title01-2025-09-26T19:15:08.448Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:15:08.448Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/multibuys-00/us-central1/title01-2025-09-26T19:15:08.448Z"],"workRunningCount":1}
+[debug] [2025-09-26T19:15:08.448Z] Accepted request GET /multibuys-00/us-central1/title01 --> us-central1-title01
+[debug] [2025-09-26T19:15:08.450Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-09-26T19:15:08.450Z] [functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/"}}
+[debug] [2025-09-26T19:15:08.450Z] [worker-pool] submitRequest(triggerId=us-central1-title01) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-title01)"}}
+[info] i  functions: Beginning execution of "us-central1-title01" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Beginning execution of \"us-central1-title01\""}}
+[debug] [2025-09-26T19:15:08.450Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY"}}
+[debug] [2025-09-26T19:15:08.460Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-title01" in 12.383549ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finished \"us-central1-title01\" in 12.383549ms"}}
+[debug] [2025-09-26T19:15:08.464Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE"}}
+[debug] [2025-09-26T19:15:08.464Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-09-26T19:15:08.464Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-09-26T19:15:08.464Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:15:11.075Z] [work-queue] {"queuedWork":["/multibuys-00/us-central1/title01-2025-09-26T19:15:11.075Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:15:11.075Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/multibuys-00/us-central1/title01-2025-09-26T19:15:11.075Z"],"workRunningCount":1}
+[debug] [2025-09-26T19:15:11.075Z] Accepted request GET /multibuys-00/us-central1/title01 --> us-central1-title01
+[debug] [2025-09-26T19:15:11.076Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-09-26T19:15:11.076Z] [functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/multibuys-00/us-central1/title01, mapping to path=/"}}
+[debug] [2025-09-26T19:15:11.076Z] [worker-pool] submitRequest(triggerId=us-central1-title01) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-title01)"}}
+[info] i  functions: Beginning execution of "us-central1-title01" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Beginning execution of \"us-central1-title01\""}}
+[debug] [2025-09-26T19:15:11.076Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: BUSY"}}
+[debug] [2025-09-26T19:15:11.084Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-title01" in 7.844541ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finished \"us-central1-title01\" in 7.844541ms"}}
+[debug] [2025-09-26T19:15:11.084Z] [worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"[worker-us-central1-title01-abea4e2b-8a7b-470e-b0f5-fcee36c3bf4d]: IDLE"}}
+[debug] [2025-09-26T19:15:11.084Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-09-26T19:15:11.084Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-title01"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-09-26T19:15:11.084Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-26T19:15:12.643Z] Sep 26, 2025 8:15:12 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
+INFO: Websocket client disconnected
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:15:12 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed\nINFO: Websocket client disconnected\n"}}
+[debug] [2025-09-26T19:15:12.658Z] Sep 26, 2025 8:15:12 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
+INFO: Connected to new websocket client
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:15:12 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\nINFO: Connected to new websocket client\n"}}
+[debug] [2025-09-26T19:15:12.698Z] Sep 26, 2025 8:15:12 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:15:12 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:15:12.716Z] Sep 26, 2025 8:15:12 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:15:12 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:15:12.733Z] Sep 26, 2025 8:15:12 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:15:12 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:15:14.905Z] Sep 26, 2025 8:15:14 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:15:14 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:15:15.055Z] Sep 26, 2025 8:15:15 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:15:15 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:15:16.294Z] Sep 26, 2025 8:15:16 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:15:16 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:15:17.613Z] Sep 26, 2025 8:15:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:15:17 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:15:18.270Z] Sep 26, 2025 8:15:18 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:15:18 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:15:19.426Z] Sep 26, 2025 8:15:19 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:15:19 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:15:20.174Z] Sep 26, 2025 8:15:20 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:15:20 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:15:21.202Z] Sep 26, 2025 8:15:21 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:15:21 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:15:22.023Z] Sep 26, 2025 8:15:22 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:15:22 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:15:23.020Z] Sep 26, 2025 8:15:23 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:15:23 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:16:08.402Z] Sep 26, 2025 8:16:08 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:16:08 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:16:53.414Z] Sep 26, 2025 8:16:53 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:16:53 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:17:39.398Z] Sep 26, 2025 8:17:39 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:17:39 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:18:25.400Z] Sep 26, 2025 8:18:25 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:18:25 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:19:11.401Z] Sep 26, 2025 8:19:11 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:19:11 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
+[debug] [2025-09-26T19:19:57.427Z] Sep 26, 2025 8:19:57 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 26, 2025 8:19:57 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
