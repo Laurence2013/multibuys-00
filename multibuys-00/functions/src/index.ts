@@ -31,10 +31,7 @@ export const addEmailAddress = onRequest(async (request, response) => {
 	const email = request.body;
 	if (!email) response.status(400).send('Email address is required');
 
-	const emailAdd = {
-		id: 1,
-		email_address: email,
-	};
+	const emailAdd = { id: 1, email_address: email };
 
 	try {
 		const docRef = await db.collection('newsletter').add(emailAdd);
